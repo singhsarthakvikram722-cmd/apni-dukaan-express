@@ -187,18 +187,14 @@ function About() {
           <p className="text-foreground/70 max-w-2xl mx-auto mb-10 text-lg">
             Whether you need a quick bag of atta or want to stock up for the week, walk in and experience the warmth of a true Kanpur dukaan.
           </p>
-          <div className="grid md:grid-cols-3 gap-8 text-left max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-8 text-left max-w-3xl mx-auto">
             <div>
               <p className="text-xs font-semibold uppercase tracking-widest text-spice-rust mb-2">Address</p>
-              <p className="text-sm text-foreground/80">14/122 Civil Lines,<br />Near Green Park Stadium,<br />Kanpur, UP 208001</p>
+              <p className="text-sm text-foreground/80">4/247, Ranighat Gaushala,<br />Purana Kanpur,<br />Kanpur, UP 208001</p>
             </div>
             <div>
               <p className="text-xs font-semibold uppercase tracking-widest text-spice-rust mb-2">Open Hours</p>
               <p className="text-sm text-foreground/80">Mon — Sat: 7:00 AM — 10:00 PM<br />Sunday: 9:00 AM — 2:00 PM</p>
-            </div>
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-widest text-spice-rust mb-2">Connect</p>
-              <p className="text-sm text-foreground/80">+91 512 2345 678<br />namaste@apnidukaan.in</p>
             </div>
           </div>
         </div>
@@ -230,8 +226,8 @@ function About() {
           <div>
             <h4 className="text-heritage-cream font-bold mb-6">Visit Us</h4>
             <ul className="space-y-4 text-sm">
-              <li>14/122 Civil Lines</li>
-              <li>Near Green Park Stadium</li>
+              <li>4/247, Ranighat Gaushala</li>
+              <li>Purana Kanpur</li>
               <li>Kanpur, UP 208001</li>
               <li className="text-marigold pt-2">Open 7:00 AM — 10:00 PM</li>
             </ul>

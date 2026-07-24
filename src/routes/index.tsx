@@ -116,15 +116,15 @@ function Index() {
               <div className="aspect-square bg-heritage-cream rounded-2xl mb-4 overflow-hidden group-hover:scale-[0.98] transition-transform">
                 <img
                   src={snacks}
-                  alt="Fresh local snacks, samosas, and namkeen in glass jars"
+                  alt="Fresh pure dairy products including milk, paneer, and ghee"
                   width={816}
                   height={816}
                   className="w-full h-full object-cover"
                   loading="lazy"
                 />
               </div>
-              <h3 className="font-bold">Kanpuri Namkeen</h3>
-              <p className="text-sm text-foreground/60">Authentic local flavors</p>
+              <h3 className="font-bold">Pure Dairy Products</h3>
+              <p className="text-sm text-foreground/60">Fresh milk, paneer & ghee</p>
             </div>
             <div className="group cursor-pointer">
               <div className="aspect-square bg-heritage-cream rounded-2xl mb-4 overflow-hidden group-hover:scale-[0.98] transition-transform">
@@ -220,18 +220,14 @@ function Index() {
           <p className="text-foreground/70 max-w-2xl mx-auto mb-10 text-lg">
             We're right here in Kanpur, ready with a warm smile and everything your home needs. Drop by or call ahead — we love seeing our neighbors.
           </p>
-          <div className="grid md:grid-cols-3 gap-8 text-left max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-8 text-left max-w-3xl mx-auto">
             <div>
               <p className="text-xs font-semibold uppercase tracking-widest text-spice-rust mb-2">Address</p>
-              <p className="text-sm text-foreground/80">14/122 Civil Lines,<br />Near Green Park Stadium,<br />Kanpur, UP 208001</p>
+              <p className="text-sm text-foreground/80">4/247, Ranighat Gaushala,<br />Purana Kanpur,<br />Kanpur, UP 208001</p>
             </div>
             <div>
               <p className="text-xs font-semibold uppercase tracking-widest text-spice-rust mb-2">Open Hours</p>
               <p className="text-sm text-foreground/80">Mon — Sat: 7:00 AM — 10:00 PM<br />Sunday: 9:00 AM — 2:00 PM</p>
-            </div>
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-widest text-spice-rust mb-2">Connect</p>
-              <p className="text-sm text-foreground/80">+91 512 2345 678<br />namaste@apnidukaan.in</p>
             </div>
           </div>
         </div>
@@ -263,8 +259,8 @@ function Index() {
           <div>
             <h4 className="text-heritage-cream font-bold mb-6">Visit Us</h4>
             <ul className="space-y-4 text-sm">
-              <li>14/122 Civil Lines</li>
-              <li>Near Green Park Stadium</li>
+              <li>4/247, Ranighat Gaushala</li>
+              <li>Purana Kanpur</li>
               <li>Kanpur, UP 208001</li>
               <li className="text-marigold pt-2">Open 7:00 AM — 10:00 PM</li>
             </ul>
