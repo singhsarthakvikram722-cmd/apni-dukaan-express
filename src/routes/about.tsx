@@ -28,8 +28,8 @@ function About() {
         <div className="hidden md:flex gap-8 text-sm font-medium uppercase tracking-widest">
           <Link to="/" className="hover:text-spice-rust transition-colors">Home</Link>
           <Link to="/about" className="hover:text-spice-rust transition-colors">Our Story</Link>
-          <Link to="/" search={{}} className="hover:text-spice-rust transition-colors">Essentials</Link>
-          <Link to="/" search={{}} className="hover:text-spice-rust transition-colors">Contact</Link>
+          <a href="/" className="hover:text-spice-rust transition-colors">Essentials</a>
+          <a href="/" className="hover:text-spice-rust transition-colors">Contact</a>
         </div>
         <Link
           to="/"
@@ -241,8 +241,8 @@ function About() {
             <ul className="space-y-4 text-sm">
               <li><Link to="/" className="hover:text-heritage-cream transition-colors">Home</Link></li>
               <li><Link to="/about" className="hover:text-heritage-cream transition-colors">Our Story</Link></li>
-              <li><a href="/" className="hover:text-heritage-cream transition-colors">Daily Essentials</a></li>
-              <li><a href="/" className="hover:text-heritage-cream transition-colors">Location</a></li>
+              <li><a href="/#essentials" className="hover:text-heritage-cream transition-colors">Daily Essentials</a></li>
+              <li><a href="/#visit" className="hover:text-heritage-cream transition-colors">Location</a></li>
             </ul>
           </div>
         </div>
